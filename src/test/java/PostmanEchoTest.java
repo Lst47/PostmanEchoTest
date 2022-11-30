@@ -12,7 +12,7 @@ public class PostmanEchoTest {
                 // Предусловия
                         given()
                 .baseUri("https://postman-echo.com")
-                .body("balance: 123") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("balance: 200") // отправляемые данные (заголовки и query можно выставлять аналогично)
         // Выполняемые действия
                 .when()
                 .post("/post")
